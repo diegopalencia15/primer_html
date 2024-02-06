@@ -1,11 +1,15 @@
 body{
   background: #af6e6e;
   color: #c2c2c2;
-  font-size: 14px;
+  font-size: 30px;
 }
 
 .nombre{
   background: grey;
+}
+
+img{
+  text-align: left;
 }
 
 li{
@@ -14,14 +18,21 @@ li{
 
 #logo{
   width:300px;
-  height:300px;
+  height:30px;
+}
+
+img{
+  text-align: left;
+}
+
+a{
+  color: rgb(250, 249, 249);
+  float: right;
 }
 
 nav ul li a{
-  color: red;
-}
-
-nav ul li a:hover{
   background: green;
   width: 200px;
+  
 }
+
