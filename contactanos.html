@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <br>
+  <form action="lista.html">
+    <center>
+      <marquee behavior="alternate" direction="up" width="20%">
+        <marquee direction="right" behavior="alternate">Ingresa tus datos y nos contactaremos contigo</marquee>
+      </marquee>
+      <br>
+      <a type="button" href="../index.html">inicio</a>
+      <li><a>Nombre</a></li>
+      <input type="text" name="nombre" id="" placeholder="ingrese su nombre" required minlength="5">
+      <li><a>Apellidos</a></li>
+      <input type="text" name="apellidos" id="" placeholder="ingrese sus apellidos" required minlength="8">
+      <li><a>Correo Electronico</a></li>
+      <input type="text" name="correo" id="" placeholder="ingrese su correo" required minlength="8">
+      <li><a>Asunto</a></li>
+      <input type="text" name="asunto" id="" placeholder="ingrese el asunto" required minlength="8">
+      <br>
+      <br>
+      <select required>
+        <option value="" selected disabled>seleccione la ciudad</option>
+        <option value="1">Bucaramanga</option>
+        <option value="2">Floridablanca</option>
+        <option value="3">Giron</option>
+      </select>
+      <br>
+      <br>
+      <textarea name="mensaje" id="mensaje" placeholder="ingrese el mensaje" required cols="21" rows="5" minlength="20">
+    </textarea>
+      <br>
+      <br>
+      <button type="submit">enviar</button>
+    </center>
+  </form>
+</body>
+
+</html>
