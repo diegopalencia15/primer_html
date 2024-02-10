@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Protest Riot', sans-serif;
 }
 
 body{
@@ -12,10 +13,13 @@ body{
   background: red;
 }
 
-header{
+header > div{
   background: #000;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 img{
@@ -25,11 +29,15 @@ img{
 ul{
   display: flex;
   list-style: none;
-  gap: 4rem;
+  gap: 2rem;
 }
 
-a{
+ul li a{
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
+}
+
+ul li a:hover{
+  color: red;
 }
